@@ -1,0 +1,27 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+button-verticales{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+}
+button:hover {
+    background-color:blue;
+    border-radius: 10px;
+}
+style{
+    display: flex;
+    justify-content: space-between;
+}

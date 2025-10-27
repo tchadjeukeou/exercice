@@ -1,0 +1,12 @@
+.container{
+    font-style: italic;
+}
+.couleur-bleue{
+    color: blue;
+}
+.souligne{
+    text-decoration: underline;
+}
+#para-2{
+    color: green;
+}

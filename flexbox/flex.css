@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+}
+p{
+    border: 1px solid;
+    height: 20;
+    background-color: rgb(0, 170, 255);
+    color: white;
+}
