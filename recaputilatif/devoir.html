@@ -6,71 +6,72 @@
         <link rel="stylesheet" href="devoir.css"/>
         <link rel="stylesheet" href=" image.png"/> <!-- link:rel=stylesheet ne doit prendre qu'un fichier css et non une image -->
     </head>
-    <body style="position: relative;margin-inline-start: 8cm;"> <!-- Pour le moment evite de mettre du css dans ton fichier html avec l'attribut 'style'. TOUT ton css doit rester dans un fichier .css externe -->
-        <h1> profile </h1>
-        <table>
-            <tr>
-                <td>
-                    <img src="image.jpg" alt="photo de profil" width="900" height="150" class="profil-img"/>
-                </td>
-            </tr>
-        </table>
-        <h2>JUBEN Dain</h2>
-        <br>
-        <div class="button-verticales"> <!-- Ces boutons sont places a l'horizontale, pas la verticale -->
-            <button class="mon-boutton"> personal info </button>
-            <button class="mon boutton"> Favourite </button> <!-- les noms de classes ne doivent pas avoir d'espace -->
-            <button class="mon boutton"> My reviews </button>
-            <button class="mon boutton"> settings </button> <!-- N'oublie pas les majuscules et les fautes d'orthographe -->
-            <button class="mon boutton"> supports </button>
-            <button class="mon-boutton"> Invite Friends</button>
+    <body> <!-- Pour le moment evite de mettre du css dans ton fichier html avec l'attribut 'style'. TOUT ton css doit rester dans un fichier .css externe -->
+      <div id="bloc-interne">
+        <div id="card">
+          <h1> profile </h1>
+          <table>
+              <tr>
+                  <td>
+                      <img src="image.jpg" alt="photo de profil" width="900" height="150" class="profil-img"/>
+                  </td>
+              </tr>
+          </table>
+          <h2>JUBEN Dain</h2>
+
+          <div class="button-verticales">
+              <button>Personal Info</button>
+              <button>Favourite</button>
+              <button>My Reviews</button>
+              <button id="selected">Settings</button>
+              <button>Supports</button>
+              <button>Invite Friends</button>
+          </div>
+          
+          <div id="liens">
+            <div id="bloc-gauche">
+              <div class="ombre">
+                  <img src="logo (2).jpg" 
+                       alt="0" 
+                       width="25" 
+                       height="15" 
+                       style="border-radius: 10px; border: 1px solid;" />
+                  Notifications
+              </div>
+              <div class="ombre">
+                  <img src="icone.jpg" alt="0" width="25" height="15" style="border: 5px; border-radius: 5px;"  />
+                  Payments Methods
+              </div>
+              <div class="ombre">
+                  <img src="logo3.jpg" 
+                       alt="0" 
+                       width="25" 
+                       height="15" 
+                       style="border: solid;border-radius: 5px;" />
+                  Privacy Shortcuts
+              </div>
+            </div>
+            
+            <div id="bloc-droit">
+              <div class="ombre">
+                  <img src="logo4.jpg" 
+                       alt="0" 
+                       width="25" 
+                       height="15" 
+                       style="border: solid; border-radius: 5px;" />
+                  Languages
+              </div>
+              <div class="ombre">
+                  <img src="logo5.jpg" 
+                       alt="0" 
+                       width="25" 
+                       height="15" 
+                       style="border: solid;border-radius: 5px;"/>
+                  Log Out
+              </div>
+            </div>
+          </div>
         </div>
-        </br>
-        
-        <!-- Tu peux grouper les divs qui contiennent 'Notifications', 'Payment Methods' et 'Privacy Shortcut' dans un autre div -->
-        <div class="ombre" 
-             style="width: 200px; height: 50px; background-color: white;box-shadow: 10px 10px 5px rgba(red, green, blue, alpha);border: 1px solid;margin-top: 20px;">
-            <img src="logo (2).jpg" 
-                 alt="0" 
-                 width="25" 
-                 height="15" 
-                 style="border-radius: 10px; border: 1px solid;" />
-            notifications
-        </div>
-        <div class="ombre" 
-             style="width: 200px;height: 50px;background-color: white;box-shadow: 10px 10px 5px rgba(red, green, blue, alpha);border: 1px solid;margin-top: 20px;">
-            <img src="icone.jpg" alt="0" width="25" height="15" style="border: 5px; border-radius: 5px;"  />
-            payments methods
-        </div>
-        <div class="ombre" 
-             style="width: 200px; height: 50px;background-color: white;box-shadow: 10px 10px 5px rgba(red, green, blue, alpha); border: 1px solid; margin-top: 20px;">
-            <img src="logo3.jpg" 
-                 alt="0" 
-                 width="25" 
-                 height="15" 
-                 style="border: solid;border-radius: 5px;" />
-            privacy shortcuts
-        </div>
-        
-        
-        <!-- Tu peux grouper les divs qui contiennent 'Languages' et 'Log Out' dans un autre div -->
-        <div class="ombre" 
-             style="width: 200px; height: 50px; background-color: white; box-shadow: 10px 10px 5px rgba(red, green, blue, alpha); border: 1px solid;margin-top: 20px ;">
-            <img src="logo4.jpg" 
-                 alt="0" 
-                 width="25" 
-                 height="15" 
-                 style="border: solid; border-radius: 5px;" />
-            languages
-        </div>
-        <div class="ombre" 
-             style="width: 200px; height: 50px;background-color: white;box-shadow: 10px 10px 5px rgba(red, green, blue, alpha); border: 1px solid; margin-top: 20px  ;">
-            <img src="logo5.jpg" 
-                 alt="0" 
-                 width="25" 
-                 height="15" 
-                 style="border: solid;border-radius: 5px;"/>
-            log out
-        </div>
+      </div>
     </body>
 </html>

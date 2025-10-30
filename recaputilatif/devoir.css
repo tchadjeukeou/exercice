@@ -1,27 +1,42 @@
-h1{
-    display: flex;
-    justify-content: center;
+body {
+  background-color: #f6eaea;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
-h2{
-    display: flex;
-    justify-content: center;
+
+#bloc-interne {
+  width: 100%;
+  background-color: #f4f3ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 50px;
 }
-button-verticales{
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
+
+#card {
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
 }
-div{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px;
-    align-items: center;
+  
+#liens {
+  display: flex;
+  justify-content: space-between;
 }
-button:hover {
-    background-color:blue;
-    border-radius: 10px;
+
+button {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
 }
-style{
-    display: flex;
-    justify-content: space-between;
+
+button#selected {
+    color: white;
+    background-color: black;
 }
