@@ -1,0 +1,29 @@
+body{
+    background-image: url(christopher.jpg);
+    background-size: 1500px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h1{
+    font-size: 70px;
+    text-decoration: underline;
+}
+#centre{
+    margin-left: 100px;
+}
+nav{
+    margin-left: 50px;
+    font-style: bold;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin-top: 150px;
+}
+section{
+    font-size: 25px;
+}
